@@ -1,7 +1,7 @@
 # Stain-Virtualization
-VIRTUALIZATION OF TISSUE STAINING IN DIGITAL PATHOLOGY USING ANUNSUPERVISED DEEP LEARNING APPROACH.
+VIRTUALIZATION OF TISSUE STAINING IN DIGITAL PATHOLOGY USING AN UNSUPERVISED DEEP LEARNING APPROACH.
 
-Histopathological evaluation of tissue samples is a key practice in patient diagnosis. Historically, Hematoxylin and Eosin (H&E) has been used by pathologists as a gold standard staining. However, in many cases, various target specific stains, including immunohistochemistry (IHC), are needed in order to highlight specific structures in the tissue. As tissue is scarce and staining procedures are tedious, it would be beneficial to generate images of stained tissue virtually. Virtual staining could also generate in-silico multiplexing of different stains on the same tissue segment. We present a sample application that generates virtual IHC images from real IHC images  and vice versa using an unsupervised deep learning approach based on CycleGAN. 
+Histopathological evaluation of tissue samples is a key practice in patient diagnosis. Historically, Hematoxylin and Eosin (H&E) has been used by pathologists as a gold standard staining. However, in many cases, various target specific stains, including immunohistochemistry (IHC), are needed in order to highlight specific structures in the tissue. As tissue is scarce and staining procedures are tedious, it would be beneficial to generate images of stained tissue virtually. Virtual staining, is to use computerized algorithms to create an artiﬁcial eﬀect of staining without physically tampering the slide.We present a sample application that generates virtual IHC images from real H&E images  and vice versa using an unsupervised deep learning approach based on CycleGAN. 
 
 DATA PREPARATION :
 
