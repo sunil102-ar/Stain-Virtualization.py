@@ -3,9 +3,15 @@ VIRTUALIZATION OF TISSUE STAINING IN DIGITAL PATHOLOGY USING AN UNSUPERVISED DEE
 
 Historically, Hematoxylin and Eosin (H&E) has been used by pathologists as a gold standard staining. However, in many cases, various target specific stains, including immunohistochemistry (IHC), are needed in order to highlight specific structures in the tissue. As tissue is scarce and staining procedures are tedious, it would be beneficial to generate images of stained tissue virtually. Virtual staining, is to use computerized algorithms to create an artiﬁcial eﬀect of staining without physically tampering the slide.We present a sample application that generates virtual IHC images from real H&E images  and vice versa using an unsupervised deep learning approach based on CycleGAN. 
 
-DATA PREPARATION :
+Business Challenges involve :
 
-The "A" category refers to H&E slide and "B" category refers to IHC slide image, and the dataset is comprised of train and test elements. We will load all photographs and use them as a training dataset. First loads all images into memory, showing that there are X images in category A (H&E slide) and Y images in category B (IHC slide). The arrays are then saved in compressed numpy format with the filename "stain.npz". 
+1. Staining prcedure itself is very tedious task.
+2. Staining is time consumimg and complex task ofen done by experts.
+3. Specimens are scarce. 
+
+Data Preparation :
+
+Datasets collected from ICPR 2012 contest such as the "A" category refers to H&E slide and "B" category refers to IHC slide image, and the dataset is comprised of train and test elements. We will load all images and use them as a training dataset. First loads all images into memory, showing that there are X images in category A (H&E slide) and Y images in category B (IHC slide). The arrays are then saved in compressed numpy format with the filename "stain.npz". 
 
 GAN Architecture explaination - https://sunilsyengg-100.medium.com/everything-about-gan-e04c296fa69d
 
